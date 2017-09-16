@@ -15,7 +15,7 @@ public class NodeManager {
         if (node == null) {
 
         } else {
-            
+
             System.out.println(node.value());
             recursionOrdered(node.getLeft());
             recursionOrdered(node.getRight());
