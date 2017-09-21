@@ -1,6 +1,5 @@
 package com.mage.fengwang;
 
-import org.omg.CORBA.NO_IMPLEMENT;
 
 import java.util.Stack;
 
@@ -19,6 +18,7 @@ public class NodeManager {
             System.out.println(node.value());
             recursionOrdered(node.getLeft());
             recursionOrdered(node.getRight());
+            System.out.println();
         }
     }
 
