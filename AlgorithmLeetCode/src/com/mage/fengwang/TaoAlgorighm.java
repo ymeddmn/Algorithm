@@ -29,7 +29,7 @@ public class TaoAlgorighm {
                 buyPeah();
             } else {
                 System.out.println(money / 10 + "元可买桃子" + peahNum);
-                return;
+                return ;
             }
         }
 
